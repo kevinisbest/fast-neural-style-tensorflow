@@ -1,8 +1,12 @@
 # fast-neural-style-tensorflow
 
-This is base on fast-neural-style for my [ICG(Interactive Computer Graphics 2017 Fall)](https://www.csie.ntu.edu.tw/~ming/courses/icg/) term project
+This is base on fast-neural-style for my [ICG(Interactive Computer Graphics 2017 Fall)](https://www.csie.ntu.edu.tw/~ming/courses/icg/) term project.
 
-DEMOS:
+I add GUI and show the before/after pictures.
+
+## DEMOS:
+![](https://github.com/kevinisbest/fast-neural-style-tensorflow/blob/master/demo/_2.gif)
+![](https://github.com/kevinisbest/fast-neural-style-tensorflow/blob/master/demo/converted_file_07b9a8fd.gif)
 
 A tensorflow implementation for [Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155).
 
