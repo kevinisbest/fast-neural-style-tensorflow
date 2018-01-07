@@ -30,7 +30,20 @@ This code is based on [Tensorflow-Slim](https://github.com/tensorflow/models/tre
 - Tkinter ( for GUI )
 - OpenCV 3.X ( for showing pictures )
 
-Attention: I modified Tensorflow source code to make sure the program can continue to show the pictures after the session.
+### Attention: I modified Tensorflow source code to make sure the program can continue to show the pictures after the session.
+in:
+```
+/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/tensorflow/python/platform/app.py
+```
+form:
+```
+_sys.exit(main(_sys.argv[:1] + flags_passthrough))
+```
+to:
+```
+main(_sys.argv[:1] + flags_passthrough)
+```
+remember to change back after running the program.
 
 <b>Attention: This code also supports Tensorflow == 0.11. If it is your version, use the commit 5309a2a (git reset --hard 5309a2a).</b>
 
