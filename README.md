@@ -27,6 +27,10 @@ This code is based on [Tensorflow-Slim](https://github.com/tensorflow/models/tre
 ## Requirements and Prerequisites:
 - Python 2.7.x
 - <b>Now support Tensorflow >= 1.0</b>
+- Tkinter ( for GUI )
+- OpenCV 3.X ( for showing pictures )
+
+Attention: I modified Tensorflow source code to make sure the program can continue to show the pictures after the session.
 
 <b>Attention: This code also supports Tensorflow == 0.11. If it is your version, use the commit 5309a2a (git reset --hard 5309a2a).</b>
 
